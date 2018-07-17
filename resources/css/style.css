@@ -30,6 +30,7 @@ header{
 }
 .brand p span{
     color: #a4afc1;
+    color: #8b5344;       
     font-weight: 100;
 }
 
@@ -51,8 +52,13 @@ header{
 }
 .top-links nav ul li a:hover{
 /*    text-decoration: underline;*/
-    background-color: #464d5b;
+/*    background-color: #464d5b;*/
+    background-color: #8b5344;
     color: #fff;
+    border-bottom: solid 1px #fff;
+}
+.active{
+    background-color: #8b5344;
 }
 /* Home Page Styles */
 #content{
@@ -67,7 +73,7 @@ header{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 800px;
+    height: 52rem;
     padding: 1rem;
 }
 #content .inner h1{
@@ -80,15 +86,18 @@ header{
     margin-bottom: 0.5rem;
 }
 #content .inner a{
-    background-color: #a4afc1;
-        
+/*    background-color: #a4afc1;*/
+    background-color: #8b5344;       
     width: 10rem;
     padding: 0.75rem;
     margin: 0 auto;
     text-decoration: none;
     color: #fff;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
 }
 #content .inner a:hover{
     background-color: #464d5b;
+/*    border-bottom: solid 1px #fff;*/
 }
 /* Upload Page Styles */
